@@ -6,6 +6,14 @@ The request.json file can be used to modify the query parameters
 
 To run the app:
 
-1. open a terminal window and type: ''' python main.py '''
+1. open a terminal window and type: 
+```
+python main.py 
 
-2. open another terminal window and type: ''' python script.py '''
+```
+
+2. open another terminal window and type: 
+``` 
+python script.py 
+
+```
