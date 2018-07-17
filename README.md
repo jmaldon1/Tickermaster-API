@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ```
 
-2. In a terminal window and type: 
+3. In a terminal window and type: 
 ```
 python main.py 
 
@@ -22,7 +22,7 @@ python main.py
 
 This will run the REST API using Flask
 
-3. Open another terminal window and type: 
+4. Open another terminal window and type: 
 ``` 
 python script.py 
 
