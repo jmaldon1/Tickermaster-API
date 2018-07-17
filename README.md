@@ -20,8 +20,12 @@ python main.py
 
 ```
 
+This will run the REST API using Flask
+
 3. Open another terminal window and type: 
 ``` 
 python script.py 
 
 ```
+
+This will send a POST request to the REST API in main.py, store the returned data in a file, and store that file in AWS S3. 
