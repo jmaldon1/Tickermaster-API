@@ -23,7 +23,7 @@ def events():
 			data = json.load(f)
 
 	#Payload that will be sent to the ticketmaster API
-	payload = {"postalCode":data['postalCode'],"startDateTime":data['startDateTime'],"endDateTime":data['endDateTime'], "city":data['city'], "apikey":data['apikey']}
+	payload = {"postalCode":data['postalCode'],"startDateTime":data['startDateTime'],"endDateTime":data['endDateTime'], "city":data['city'], "apikey":apikey}
 	#Make a request to the ticketmaster api given the URL and the parameters
 	search = requests.get(search_url, params=payload)
 	#Turn response into json
