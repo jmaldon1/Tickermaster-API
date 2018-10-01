@@ -30,7 +30,6 @@ def events():
 	search_json = search.json()
 
 	return jsonify(search_json)
-	#return "Hello"
 
 if __name__ == '__main__':
 	app.run(debug=True)
